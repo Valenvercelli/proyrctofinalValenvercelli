@@ -1,0 +1,128 @@
+/* Estilos generales (para pantallas grandes) */h1 {
+    text-align: center;
+    padding: 0%;
+    max-width: 100%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+    background-color: #dddddd;
+    text-align: center;
+}
+
+header {
+    background-color: #a2d5f2;
+    color: #333;
+    padding: 0%;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 2%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5%;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+article {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 04px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.textocompra1 {
+    text-align: center;
+    right: 30%;
+}
+
+.btn-btn-primary {
+    text-align: center;
+    display: inline;
+}
+
+.form-registro {
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 400px;
+    background-color: #a2d5f2;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px13px37px#000;
+}
+
+.form-registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #a2d5f2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-registro.btn2 {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    margin: 16px0;
+    font-size: 16px;
+}
+
+/* Estilos para pantallas medianas y pequeñas (tablets y móviles) */@media screen and (max-width: 768px) {
+    nav ul {
+        padding: 1%;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+    }
